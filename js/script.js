@@ -2,10 +2,19 @@
 // Bonus: Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 
 const app = new Vue(
+
+
     {
+
         el : "#box",
+
+
         data : {
-            messaggio : ""
+            messaggio : "",
+            image : "image",
+            image: "../img/img1.jpg"
         }
     }
+    
+
 )
