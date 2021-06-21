@@ -11,7 +11,6 @@ const app = new Vue(
 
         data : {
             messaggio : "",
-            image : "image",
             image: "../img/img1.jpg"
         }
     }
