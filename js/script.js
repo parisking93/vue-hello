@@ -15,9 +15,9 @@ const app = new Vue(
 
         methods : {
             cap : function() {
+        
+                this.messaggio = this.messaggio.charAt(0).toUpperCase() + this.messaggio.slice(1).toLowerCase();
             
-                return this.messaggio = this.messaggio.charAt(0).toUpperCase() + this.messaggio.slice(1).toLowerCase();
-                
             }
         }
     }
