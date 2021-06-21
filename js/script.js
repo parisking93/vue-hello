@@ -8,10 +8,17 @@ const app = new Vue(
 
         el : "#box",
 
-
         data : {
             messaggio : "",
             image: "../img/img1.jpg"
+        },
+
+        methods : {
+            cap : function() {
+            
+                return this.messaggio = this.messaggio.charAt(0).toUpperCase() + this.messaggio.slice(1).toLowerCase();
+                
+            }
         }
     }
     
